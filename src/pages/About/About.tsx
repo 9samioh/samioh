@@ -7,7 +7,6 @@ import chef from "../../images/chef.png";
 import painting from "../../images/painting.png";
 import cookbook from "../../images/cookbook.png";
 
-
 import { Stack, Typography } from "@mui/material";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
@@ -33,9 +32,11 @@ const About = () => {
               youtube videos, and a lot of google searches! I gained industry
               experience in the past two years through design and software
               engineering internships, and am now{" "}
-              <b>pursing a full time role in software engineering</b>. I’m
-              always looking for more fun projects and experiences to continue
-              growing my skillset!
+              <span style={{ fontWeight: "bolder" }}>
+                pursing a full time role in software engineering
+              </span>
+              . I’m always looking for more fun projects and experiences to
+              continue growing my skillset!
             </Typography>
           </Stack>
         </Stack>
@@ -91,7 +92,7 @@ const About = () => {
             </Typography>
           </Stack>
         </Stack>
-        <Stack direction="row" spacing="5%" alignItems={"center"}>
+        <Stack direction="row" spacing="5%" alignItems={"center"} padding={"10% 0 10% 0"}>
           <img src={cookbook} alt="cookbook" className={styles.halfimg} />
 
           <Stack sx={{ paddingRight: "5%", textAlign: "right" }}>
@@ -113,7 +114,7 @@ const About = () => {
         </Stack>
       </div>
       {/* Next Projects */}
-      <div style={{ paddingBottom: "5%" }}>
+      <div className={styles.projects}>
         <Typography
           variant="h2"
           className={styles.smallpadding}

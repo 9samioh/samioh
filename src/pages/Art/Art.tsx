@@ -3,7 +3,7 @@ import art from "../../images/art.png";
 
 const Art = () => {
   return (
-    <div>
+    <div style={{ minHeight: "100vw" }}>
       <Navbar />
       <div style={{ textAlign: "center", padding: "5% 5% 5% 5%" }}>
         <img src={art} alt="art" width={"50%"} />

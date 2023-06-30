@@ -5,7 +5,7 @@ import contact from "../../images/contact.png";
 
 const Contact = () => {
   return (
-    <div style={{ }}>
+    <div style={{minHeight: "100vw" }}>
       <Navbar />
       <div className={styles.body}>
         {/* intro */}

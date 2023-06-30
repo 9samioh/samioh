@@ -25,11 +25,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={bsc1} />
               <CardContent>
-                <h1 className={styles.lefttitle}>Berkeley Student Coop</h1>
-                <Link className={styles.here2left} to="/bsc">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  Berkeley Student Coop
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </Link>
@@ -45,11 +49,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={cadence} />
               <CardContent>
-                <h1 className={styles.lefttitle}>Cadence</h1>
-                <Link className={styles.here2left} to="/cadence">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  Cadence
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </Link>
@@ -65,11 +73,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={xkeeper} />
               <CardContent>
-                <h1 className={styles.lefttitle}>XKeeper</h1>
-                <Link className={styles.here2left} to="/xkeeper">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  XKeeper
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </Link>
@@ -85,11 +97,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={omega} />
               <CardContent>
-                <h1 className={styles.lefttitle}>Omega</h1>
-                <Link className={styles.here2left} to="/omega">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  Omega
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </Link>
@@ -99,7 +115,7 @@ const ProjectCard = ({ id }: { id: string }) => {
   }
   if (id === "blueprint") {
     return (
-      <div className={styles.clubcard}>
+      <div className={styles.card}>
         <Card className={styles.actioncard}>
           <a
             className={styles.here2left}
@@ -110,11 +126,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={bp} />
               <CardContent>
-                <h1 className={styles.lefttitle}>Blueprint</h1>
-                <Link className={styles.here2left} to="/blueprint">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  Blueprint
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </a>
@@ -124,7 +144,7 @@ const ProjectCard = ({ id }: { id: string }) => {
   }
   if (id === "aaa") {
     return (
-      <div className={styles.clubcard}>
+      <div className={styles.card}>
         <Card className={styles.actioncard}>
           <a
             className={styles.here2left}
@@ -135,11 +155,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={aaa} />
               <CardContent>
-                <h1 className={styles.lefttitle}>AAA</h1>
-                <Link className={styles.here2left} to="/aaa">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  AAA
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </a>
@@ -149,7 +173,7 @@ const ProjectCard = ({ id }: { id: string }) => {
   }
   if (id === "codeo") {
     return (
-      <div className={styles.clubcard}>
+      <div className={styles.card}>
         <Card className={styles.actioncard}>
           <a
             className={styles.here2left}
@@ -160,11 +184,15 @@ const ProjectCard = ({ id }: { id: string }) => {
             <CardActionArea>
               <CardMedia component="img" height="auto" image={codeo} />
               <CardContent>
-                <h1 className={styles.lefttitle}>Codeology</h1>
-                <Link className={styles.here2left} to="/codeology">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
+                <Typography
+                  variant="h3"
+                  sx={{ color: "#333", padding: "5% 0 5% 0 " }}
+                >
+                  Codeology
+                </Typography>
+                <Typography variant="body1" sx={{ paddingBottom: "3%" }}>
+                  Learn More
+                </Typography>
               </CardContent>
             </CardActionArea>
           </a>
@@ -172,26 +200,26 @@ const ProjectCard = ({ id }: { id: string }) => {
       </div>
     );
   }
-  if (id === "omega") {
-    return (
-      <div className={styles.card}>
-        <Card className={styles.actioncard}>
-          <Link className={styles.here2left} to="/omega">
-            <CardActionArea>
-              <CardMedia component="img" height="auto" image={omega} />
-              <CardContent>
-                <h1 className={styles.lefttitle}>Omega</h1>
-                <Link className={styles.here2left} to="/omega">
-                  {" "}
-                  Learn More<span className="sr-only"></span>
-                </Link>
-              </CardContent>
-            </CardActionArea>
-          </Link>
-        </Card>
-      </div>
-    );
-  }
+  // if (id === "omega") {
+  //   return (
+  //     <div className={styles.card}>
+  //       <Card className={styles.actioncard}>
+  //         <Link className={styles.here2left} to="/omega">
+  //           <CardActionArea>
+  //             <CardMedia component="img" height="auto" image={omega} />
+  //             <CardContent>
+  //               <h1 className={styles.lefttitle}>Omega</h1>
+  //               <Link className={styles.here2left} to="/omega">
+  //                 {" "}
+  //                 Learn More<span className="sr-only"></span>
+  //               </Link>
+  //             </CardContent>
+  //           </CardActionArea>
+  //         </Link>
+  //       </Card>
+  //     </div>
+  //   );
+  // }
   return (
     <div className={styles.card}>
       <Card className={styles.actioncard}>
