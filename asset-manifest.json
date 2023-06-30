@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samioh/static/css/main.38434946.css",
-    "main.js": "/samioh/static/js/main.e2fc5bbf.js",
+    "main.js": "/samioh/static/js/main.71b538d5.js",
     "static/js/787.80d3fe12.chunk.js": "/samioh/static/js/787.80d3fe12.chunk.js",
     "static/media/headshot.png": "/samioh/static/media/headshot.b3d287884d392e8c19d0.png",
     "static/media/bsc8.png": "/samioh/static/media/bsc8.3a53bcf913e01599d75b.png",
@@ -43,11 +43,11 @@
     "static/media/codeo.png": "/samioh/static/media/codeo.400d4d88c9f3cd15bac4.png",
     "index.html": "/samioh/index.html",
     "main.38434946.css.map": "/samioh/static/css/main.38434946.css.map",
-    "main.e2fc5bbf.js.map": "/samioh/static/js/main.e2fc5bbf.js.map",
+    "main.71b538d5.js.map": "/samioh/static/js/main.71b538d5.js.map",
     "787.80d3fe12.chunk.js.map": "/samioh/static/js/787.80d3fe12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38434946.css",
-    "static/js/main.e2fc5bbf.js"
+    "static/js/main.71b538d5.js"
   ]
 }
