@@ -2,10 +2,11 @@ import { Stack, Typography } from "@mui/material";
 import Navbar from "../../components/Navbar/Navbar";
 import styles from "../About/About.module.css";
 import contact from "../../images/contact.png";
+import CopyToClipboardButton from "../../components/CopyToClipboard/Copytoclipboard";
 
 const Contact = () => {
   return (
-    <div style={{minHeight: "100vw" }}>
+    <div style={{ minHeight: "100vw" }}>
       <Navbar />
       <div className={styles.body}>
         {/* intro */}
@@ -18,17 +19,25 @@ const Contact = () => {
         >
           <img src={contact} alt="contact" className={styles.contactimg} />
 
-          <Stack sx={{ paddingRight: "5%" }}>
+          <Stack sx={{ width: "30%" }}>
             <Typography variant="h2" className={styles.smallpadding}>
               Contact Me!
             </Typography>
-            <Typography variant="body2">
-              <span style={{ fontWeight: "bolder" }}>Email:</span>{" "}
-              sami_oh@berkeley.edu
-            </Typography>
-            <Typography variant="body2">
-              <span style={{ fontWeight: "bolder" }}>Mobile:</span> 714-321-7505
-            </Typography>
+            <Stack direction={"row"} spacing={"2%"}>
+              <Typography variant="body2">
+                <span style={{ fontWeight: "bolder" }}>Email:</span>{" "}
+                sami_oh@berkeley.edu
+              </Typography>
+              <CopyToClipboardButton text="sami_oh@berkeley.edu" />
+            </Stack>
+            <Stack direction={"row"} spacing={"2%"}>
+              <Typography variant="body2">
+                <span style={{ fontWeight: "bolder" }}>Mobile:</span>{" "}
+                714-321-7505
+              </Typography>
+              <CopyToClipboardButton text="714-321-7505" />
+            </Stack>
+
             <a
               className={styles.link2}
               href="https://www.linkedin.com/in/samantha-oh-3315b31b7/"
@@ -39,7 +48,7 @@ const Contact = () => {
             </a>
             <a
               className={styles.link2}
-              href="https://drive.google.com/file/d/1EomaCp-phZlfEfnNqZw8_C_MhA5yCBEK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VE-5CvzKy00ap0mXMIRyEHI3X2yMoG3K/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
