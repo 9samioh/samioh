@@ -51,3 +51,8 @@
 .projects {
     padding-bottom: 10%;
 }
+
+.contactinfo {
+    display: flex;
+    align-items: center;
+}
