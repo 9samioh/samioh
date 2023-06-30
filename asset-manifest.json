@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/samioh/static/css/main.212cdbe3.css",
-    "main.js": "/samioh/static/js/main.6b9ae17d.js",
+    "main.css": "/samioh/static/css/main.228ddc9a.css",
+    "main.js": "/samioh/static/js/main.7042f9ea.js",
     "static/js/787.80d3fe12.chunk.js": "/samioh/static/js/787.80d3fe12.chunk.js",
     "static/media/headshot.png": "/samioh/static/media/headshot.b3d287884d392e8c19d0.png",
     "static/media/bsc8.png": "/samioh/static/media/bsc8.3a53bcf913e01599d75b.png",
@@ -75,12 +75,12 @@
     "static/media/josefin-sans-v26-latin-regular.woff2": "/samioh/static/media/josefin-sans-v26-latin-regular.761b272ec66a5f5bda94.woff2",
     "static/media/josefin-sans-v26-latin-300.woff2": "/samioh/static/media/josefin-sans-v26-latin-300.33d14464ed42bdfab1d6.woff2",
     "index.html": "/samioh/index.html",
-    "main.212cdbe3.css.map": "/samioh/static/css/main.212cdbe3.css.map",
-    "main.6b9ae17d.js.map": "/samioh/static/js/main.6b9ae17d.js.map",
+    "main.228ddc9a.css.map": "/samioh/static/css/main.228ddc9a.css.map",
+    "main.7042f9ea.js.map": "/samioh/static/js/main.7042f9ea.js.map",
     "787.80d3fe12.chunk.js.map": "/samioh/static/js/787.80d3fe12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.212cdbe3.css",
-    "static/js/main.6b9ae17d.js"
+    "static/css/main.228ddc9a.css",
+    "static/js/main.7042f9ea.js"
   ]
 }
