@@ -18,12 +18,6 @@ const Work = () => {
   return (
     <div>
       <Navbar />
-
-      {/* <div className={styles.covertext}>
-        <Typography>
-          Hello! My name is Sami Oh
-        </Typography>
-      </div> */}
       <img src={bkgd} alt="background" className={styles.bkgd} />
 
       {/* Recent Work */}
@@ -54,7 +48,7 @@ const Work = () => {
         image={xkeeper}
         name="XKeeper by Jiran"
         description="Redesign of a Korean parental control app to focus on safety features."
-        link="/bsc"
+        link="/xkeeper"
       />
 
       {/* Omega */}
@@ -62,7 +56,7 @@ const Work = () => {
         image={omega}
         name="Omega Packaging"
         description="Packaging company website redesign to create a more customer focused expereince."
-        link="/bsc"
+        link="/omega"
       />
 
       {/* Buildabear */}
@@ -70,7 +64,7 @@ const Work = () => {
         image={buildabear}
         name="Build-a-Bear"
         description="Co-led a personal portolio website project teaching design and development skills in UC Berkeley Codeology."
-        link="/bsc"
+        link="/buildabear"
       />
 
       {/* findyourzen */}
@@ -78,7 +72,7 @@ const Work = () => {
         image={findyourzen}
         name="Find Your Zen"
         description="Designed and developed a student wellness app on iOS in UC Berkeley Codology."
-        link="/bsc"
+        link="/findyourzen"
       />
 
       {/* nbjc */}
@@ -87,7 +81,7 @@ const Work = () => {
         name="National Black 
         Justice Coalition"
         description="Developed a moderator and organization platform to engage and empower Black LGBTQ SGL+ communities."
-        link="/bsc"
+        link="/nbjc"
       />
 
       {/* Bloom */}
@@ -95,7 +89,7 @@ const Work = () => {
         image={bloom}
         name="Bloom"
         description="Social good mentorship program for students to recieve professional advice through UC Berkeley Blueprint."
-        link="/bsc"
+        link="/bloom"
       />
     </div>
   );

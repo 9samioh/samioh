@@ -13,7 +13,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 2%;
+    /* padding-top: 2%; */
 }
 
 .imgs {
@@ -28,12 +28,24 @@
     padding-bottom: 5%;
 }
 
+.halfimg {
+    width: 30%;
+}
+
 .smallimg {
     display: block;
     margin-left: auto;
     margin-right: auto;    
     width: 40%;
     padding-bottom: 3%;
+}
+
+.tinyimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 8%;
+    padding: 5% 0 5% 0;
 }
 
 .body {
@@ -62,6 +74,19 @@
 
 .link {
     text-decoration: none;
-    color: #AAB284;
+    color: #D4A384;
     font-weight:bolder
 }
+
+.bodyitem {
+    padding: 3% 15% 5% 15%;
+    width: 50%;
+margin-left: auto;
+margin-right: auto;    
+}
+
+.righthalftext {
+    width: 40%;
+    
+}
+
