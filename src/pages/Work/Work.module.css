@@ -1,0 +1,86 @@
+/* fonts */
+@font-face {
+	src: url(../../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+	font-family: sans;
+	font-weight: normal;
+}
+
+.bkgd {
+    /* position: absolute; */
+    width: 100%;
+    padding-top: 3%;
+}
+
+.covertext {
+    /* position: absolute; */
+    /* padding-left: 25%; */
+}
+
+.leftimg {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.lefttitlefont {
+    transform: translateX(-5%);
+    padding-bottom: 2%;
+
+}
+
+.leftbodyfont {
+    font-family: 'sans';
+    font-variation-settings: 'wght' 200;
+    width: 60%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+.navlink {
+    /* font-size: 1.5vw;
+    text-decoration: none;
+    color: inherit; */
+}
+
+.leftlinkfont {
+    font-size: 1.5vw;
+    /* font-family: 'sans';
+    font-variation-settings: 'wght' 400; */
+    padding-left: 5%;
+    color: #C3B499;
+    text-decoration: none;
+}
+
+.rightimg {
+    width: 40%;
+    padding-right: 10%;
+}
+
+.righttitlefont {
+    transform: translateX(10%);
+    padding-bottom: 2%;
+    text-align: right;
+    float: right
+}
+
+.rightbodyfont {
+    font-family: 'sans';
+    font-variation-settings: 'wght' 200;
+    width: 60%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    float: right;
+    text-align: right;
+    padding-left: 35%;
+
+}
+
+.rightlinkfont {
+    text-align: right;
+    font-family: 'sans';
+    font-variation-settings: 'wght' 400;
+    padding-right: 5%;
+    color: #C3B499;
+    text-decoration: none;
+    float: right
+
+}

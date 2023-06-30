@@ -1,0 +1,67 @@
+.title {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.info {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.homeimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2%;
+}
+
+.imgs {
+    width: 30%;
+}
+
+.img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+
+.smallimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 40%;
+    padding-bottom: 3%;
+}
+
+.body {
+    padding: 0 0 10% 0
+}
+
+.center {
+    padding: 8% 20% 8% 20%;
+    text-align: center;
+}
+
+.padding {
+    padding: 0 15% 3% 15%
+}
+
+.smallpadding {
+    padding-bottom: 2%;
+}
+
+.banner {
+    background-color: #E9DDCA;
+    padding: 8% 20% 8% 20%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.link {
+    text-decoration: none;
+    color: #AAB284;
+    font-weight:bolder
+}

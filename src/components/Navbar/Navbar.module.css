@@ -1,0 +1,17 @@
+/* .navbar {
+    background-color: #F2ECE2;
+} */
+
+.navlink {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: inherit;
+    display: inline;
+  border-bottom: 1px solid #333333;
+}
