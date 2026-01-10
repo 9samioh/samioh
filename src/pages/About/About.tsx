@@ -24,19 +24,20 @@ const About = () => {
               Background
             </Typography>
             <Typography variant="body2">
-              I have a very technical education because of my courses and
-              involvment in two tech clubs on campus. I gained a lot of
-              technical experience through my on-campus organization called
-              Blueprint, where we build web and mobile applications for
-              non-profits. All of my design skills are from online courses,
-              youtube videos, and a lot of google searches! I gained industry
-              experience in the past two years through design and software
-              engineering internships, and am now{" "}
+              Hi! My name is Sami and I'm a developer with previous experience
+              as a designer. My coding background comes from my CS courses and
+              involvment in two tech clubs during my time at Berkeley. In
+              college, I gained a lot of technical experience through my
+              on-campus organization called Blueprint, where we built web and
+              mobile applications for non-profits. All of my design skills are
+              from online courses, youtube videos, and a lot of google searches!
+              I gained industry experience throughout the past three years
+              through my current full-time Web Developer role as well as design
+              and software engineering internships in the past. I am always{" "}
               <span style={{ fontWeight: "bolder" }}>
-                pursing a full time role in software engineering
-              </span>
-              . I’m always looking for more fun projects and experiences to
-              continue growing my skillset!
+                looking for open roles in software engineering
+              </span>{" "}
+              to continue growing my skillset!
             </Typography>
           </Stack>
         </Stack>
@@ -61,7 +62,7 @@ const About = () => {
             <Typography variant="body2">
               I’ve played competetive volleyball since sixth grade, and have
               traveled to over 10 states to play in tournaments. Now I play on a
-              recreational intramural team with my friends.
+              recreational team with my friends.
             </Typography>
           </Stack>
 
@@ -69,9 +70,8 @@ const About = () => {
             <img src={chef} alt="chef" className={styles.smallimg} />
             <Typography variant="body2">
               I randomly get cravings for a specific food, so I started learning
-              very diverse recipes. I once made a chicken pot pie (even the
-              dough!) from scratch and that was my first time trying chicken pot
-              pie.
+              very diverse recipes. Recently, I've been obsessed with making
+              sourdough and have been selling loaves to friends and coworkers.
             </Typography>
           </Stack>
 
@@ -85,14 +85,18 @@ const About = () => {
             </Typography>
             <img src={painting} alt="painting" className={styles.smallimg} />
             <Typography variant="body2">
-              I started painting in high school when I made my friends posters
-              for their sports games. This addiction continued and now I’ve
-              decorated my entire apartment with (exlusiely cat-themed)
-              paintings.
+              I've hyperfixated on all types of crafts throughout the years.
+              Painting, pottery, rug tufting, crochet, and now knitting. Click
+              on the art tab so see what I've been creating recently!
             </Typography>
           </Stack>
         </Stack>
-        <Stack direction="row" spacing="5%" alignItems={"center"} padding={"10% 0 10% 0"}>
+        <Stack
+          direction="row"
+          spacing="5%"
+          alignItems={"center"}
+          padding={"10% 0 10% 0"}
+        >
           <img src={cookbook} alt="cookbook" className={styles.halfimg} />
 
           <Stack sx={{ paddingRight: "5%", textAlign: "right" }}>

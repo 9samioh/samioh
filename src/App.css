@@ -2,44 +2,51 @@
 /* josefin-sans-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 300;
-  src: url('./fonts/josefin-sans-v26-latin/josefin-sans-v26-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/josefin-sans-v26-latin/josefin-sans-v26-latin-300.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* josefin-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/josefin-sans-v26-latin/josefin-sans-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/josefin-sans-v26-latin/josefin-sans-v26-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 @font-face {
-	src: url(./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
-	font-family: sans;
-	font-weight: normal;
-}
-
-@font-face {
-	src: url(./fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
-	font-family: fatface;
-	font-weight: normal;
+  src: url(./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+  font-family: sans;
+  font-weight: normal;
 }
 
 @font-face {
-	src: url(./fonts/Cormorant/Cormorant-Light.ttf);
-	font-family: cormorant;
-	font-weight: normal;
+  src: url(./fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+  font-family: fatface;
+  font-weight: normal;
 }
 
 @font-face {
-	src: url(./fonts/Canela-Thin-Web.woff);
-	font-family: canela;
-	font-weight: normal;
+  src: url(./fonts/Cormorant/Cormorant-Light.ttf);
+  font-family: cormorant;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url(./fonts/Canela-Thin-Web.woff);
+  font-family: canela;
+  font-weight: normal;
+}
+body {
+  background-color: #f2ece2;
 }
 .App {
-  background-color: #F2ECE2;
+  background-color: #f2ece2;
+  height: 100%;
+  margin: 0;
   font-family: sans;
   color: #333333;
 }
