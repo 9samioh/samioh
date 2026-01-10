@@ -1,8 +1,19 @@
 {
   "files": {
-    "main.css": "/samioh/static/css/main.228ddc9a.css",
-    "main.js": "/samioh/static/js/main.7042f9ea.js",
+    "main.css": "/samioh/static/css/main.e0a18559.css",
+    "main.js": "/samioh/static/js/main.d2d357f9.js",
     "static/js/787.80d3fe12.chunk.js": "/samioh/static/js/787.80d3fe12.chunk.js",
+    "static/media/sailorSlippers.png": "/samioh/static/media/sailorSlippers.c08424ea99c0bfcfc88e.png",
+    "static/media/tomato.png": "/samioh/static/media/tomato.90a1adfbfa3113365049.png",
+    "static/media/miffy.png": "/samioh/static/media/miffy.5076c1242c6180ced4c3.png",
+    "static/media/suki.png": "/samioh/static/media/suki.1f0d8f16b8c56c2aba0a.png",
+    "static/media/milotte.png": "/samioh/static/media/milotte.2410d5cc6b4e83790900.png",
+    "static/media/hamburger.png": "/samioh/static/media/hamburger.e1bde7c742527413777c.png",
+    "static/media/kiwi.png": "/samioh/static/media/kiwi.97b83f8db4d58472e79d.png",
+    "static/media/mittenJunction.png": "/samioh/static/media/mittenJunction.e81adda0b4bee40e95fa.png",
+    "static/media/slugs.png": "/samioh/static/media/slugs.331ebfcba2f0e10bb3d4.png",
+    "static/media/newbieWhite.png": "/samioh/static/media/newbieWhite.e8395c0c42f1a7aafdaa.png",
+    "static/media/bluestripe.png": "/samioh/static/media/bluestripe.e0a4a9cca367c7b5a118.png",
     "static/media/headshot.png": "/samioh/static/media/headshot.b3d287884d392e8c19d0.png",
     "static/media/bsc8.png": "/samioh/static/media/bsc8.3a53bcf913e01599d75b.png",
     "static/media/nbjc7.png": "/samioh/static/media/nbjc7.c3f8c7fe9a8699e2a151.png",
@@ -22,7 +33,6 @@
     "static/media/buildabear1.png": "/samioh/static/media/buildabear1.19dafab1cf4449bb2731.png",
     "static/media/buildabear2.png": "/samioh/static/media/buildabear2.d39a19aaa8f76b02d840.png",
     "static/media/ofaq.png": "/samioh/static/media/ofaq.6fdcdf21a8eef4db8ac9.png",
-    "static/media/art.png": "/samioh/static/media/art.b30606cafce045d6cac2.png",
     "static/media/onews.png": "/samioh/static/media/onews.fb90e46c2245c7996af9.png",
     "static/media/cadence3.png": "/samioh/static/media/cadence3.7f09ba76a083e870a105.png",
     "static/media/Cormorant-Light.ttf": "/samioh/static/media/Cormorant-Light.7072f391e27f352c8090.ttf",
@@ -67,7 +77,7 @@
     "static/media/AbrilFatface-Regular.ttf": "/samioh/static/media/AbrilFatface-Regular.bd2d94bc217f99bb377c.ttf",
     "static/media/aaa.png": "/samioh/static/media/aaa.9bd10464243303f8e64d.png",
     "static/media/Canela-Thin-Web.woff": "/samioh/static/media/Canela-Thin-Web.6c2162f4f03fecaa7807.woff",
-    "static/media/info.png": "/samioh/static/media/info.2c38e841ee1e838e2dc7.png",
+    "static/media/info.png": "/samioh/static/media/info.f745e3281d7d827d33e8.png",
     "static/media/codeo.png": "/samioh/static/media/codeo.eb01ea4059723706ebb0.png",
     "static/media/cadence2.png": "/samioh/static/media/cadence2.34fe3ca7cb00fae831b6.png",
     "static/media/cadence4.png": "/samioh/static/media/cadence4.7e9b56c1405f5fe1d917.png",
@@ -75,12 +85,12 @@
     "static/media/josefin-sans-v26-latin-regular.woff2": "/samioh/static/media/josefin-sans-v26-latin-regular.761b272ec66a5f5bda94.woff2",
     "static/media/josefin-sans-v26-latin-300.woff2": "/samioh/static/media/josefin-sans-v26-latin-300.33d14464ed42bdfab1d6.woff2",
     "index.html": "/samioh/index.html",
-    "main.228ddc9a.css.map": "/samioh/static/css/main.228ddc9a.css.map",
-    "main.7042f9ea.js.map": "/samioh/static/js/main.7042f9ea.js.map",
+    "main.e0a18559.css.map": "/samioh/static/css/main.e0a18559.css.map",
+    "main.d2d357f9.js.map": "/samioh/static/js/main.d2d357f9.js.map",
     "787.80d3fe12.chunk.js.map": "/samioh/static/js/787.80d3fe12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.228ddc9a.css",
-    "static/js/main.7042f9ea.js"
+    "static/css/main.e0a18559.css",
+    "static/js/main.d2d357f9.js"
   ]
 }
