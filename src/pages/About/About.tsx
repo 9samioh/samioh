@@ -24,16 +24,17 @@ const About = () => {
               Background
             </Typography>
             <Typography variant="body2">
-              Hi! My name is Sami and I'm a developer with previous experience
-              as a designer. My coding background comes from my CS courses and
-              involvment in two tech clubs during my time at Berkeley. In
-              college, I gained a lot of technical experience through my
-              on-campus organization called Blueprint, where we built web and
-              mobile applications for non-profits. All of my design skills are
-              from online courses, youtube videos, and a lot of google searches!
-              I gained industry experience throughout the past three years
-              through my current full-time Web Developer role as well as design
-              and software engineering internships in the past. I am always{" "}
+              Hi! My name is Sami and I'm currently working full-time as a web
+              developer with previous experience as a designer. My coding
+              background comes from my CS courses and involvment in two tech
+              clubs during my time at Berkeley. In college, I gained a lot of
+              technical experience through my on-campus organization called
+              Blueprint, where we built web and mobile applications for
+              non-profits. All of my design skills are from online courses,
+              youtube videos, and a lot of google searches! I gained industry
+              experience throughout the past three years through my current
+              full-time Web Developer role as well as design and software
+              engineering internships in the past. I am always{" "}
               <span style={{ fontWeight: "bolder" }}>
                 looking for open roles in software engineering
               </span>{" "}
@@ -52,6 +53,7 @@ const About = () => {
           style={{ padding: "10% 0 5% 0" }}
           direction={"row"}
           justifyContent={"center"}
+          className={styles.interests}
         >
           <Stack className={styles.interest1}>
             <img

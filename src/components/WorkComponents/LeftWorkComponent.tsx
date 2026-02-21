@@ -14,15 +14,22 @@ const LeftWorkComponent = ({
   link: string;
 }) => {
   return (
-    <Stack direction="row" alignItems={"center"} paddingBottom={"5%"}>
+    <Stack
+      direction="row"
+      alignItems={"center"}
+      paddingBottom={"5%"}
+      className={styles.projectCard}
+    >
       <img src={image} alt="bsc" className={styles.leftimg} />
-      <Stack>
+      <Stack className={styles.textFlex}>
         <Typography variant="h2" className={styles.lefttitlefont}>
           {name}
         </Typography>
         <Typography className={styles.leftbodyfont}>{description}</Typography>
         <NavLink to={link} className={styles.navlink}>
-          <Typography className={styles.leftlinkfont}>&lt;&lt; VIEW</Typography>
+          <Typography className={styles.leftlinkfont} fontWeight={600}>
+            &lt;&lt; VIEW
+          </Typography>
         </NavLink>
       </Stack>
     </Stack>

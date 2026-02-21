@@ -19,7 +19,7 @@ const Contact = () => {
         >
           <img src={contact} alt="contact" className={styles.contactimg} />
 
-          <Stack sx={{ width: "30%" }}>
+          <Stack sx={{ width: "30%" }} className={styles.contacttext}>
             <Typography variant="h2" className={styles.smallpadding}>
               Contact Me!
             </Typography>
@@ -50,7 +50,7 @@ const Contact = () => {
             <div>
               <a
                 className={styles.link2}
-                href="https://drive.google.com/file/d/1VE-5CvzKy00ap0mXMIRyEHI3X2yMoG3K/view?usp=sharing"
+                href="https://drive.google.com/file/d/1k-4VtPUgv_UMOVxjwr58ovGqr5wedChr/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

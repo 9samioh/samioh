@@ -3,15 +3,25 @@
 } */
 
 .navlink {
-    font-size: 1.5vw;
-    text-decoration: none;
-    color: inherit;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: inherit;
 }
 
 .active {
-    font-size: 1.5vw;
-    text-decoration: none;
-    color: inherit;
-    display: inline;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: inherit;
+  display: inline;
   border-bottom: 1px solid #333333;
+}
+
+@media (max-width: 768px) {
+  .navlink {
+    font-size: 12px !important;
+  }
+
+  .active {
+    font-size: 12px !important;
+  }
 }

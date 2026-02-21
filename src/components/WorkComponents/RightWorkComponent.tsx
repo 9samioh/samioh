@@ -14,7 +14,12 @@ const RightWorkComponent = ({
   link: string;
 }) => {
   return (
-    <Stack direction="row" alignItems={"center"} paddingBottom={"5%"}>
+    <Stack
+      direction="row"
+      alignItems={"center"}
+      paddingBottom={"5%"}
+      className={styles.projectCard}
+    >
       <Stack sx={{ float: "right" }} textAlign={"right"} display={"block"}>
         <Typography variant="h2" className={styles.righttitlefont}>
           {name}
