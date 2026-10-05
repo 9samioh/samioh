@@ -8,7 +8,7 @@
 }
 
 .lefttitlefont {
-  transform: translateX(-5%);
+  padding-left: 5%;
   padding-bottom: 2%;
 }
 
@@ -34,10 +34,11 @@
 }
 
 .righttitlefont {
-  transform: translateX(10%);
   padding-bottom: 2%;
   text-align: right;
   float: right;
+  padding-right: 5%;
+
 }
 
 .rightbodyfont {
@@ -54,11 +55,12 @@
 .rightlinkfont {
   text-align: right;
   font-family: "sans";
-  font-variation-settings: "wght" 400;
+  font-variation-settings: "wght" 500;
   padding-right: 5%;
   color: #c3b499;
   text-decoration: none;
   float: right;
+  font-weight: 600 !important;
 }
 
 .navlink {

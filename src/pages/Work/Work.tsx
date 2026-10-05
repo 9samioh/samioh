@@ -9,14 +9,24 @@ import bloom from "../../images/bloom.png";
 import nbjc from "../../images/nbjc.png";
 import findyourzen from "../../images/findyourzen.png";
 import buildabear from "../../images/buildabear.png";
+import knitstitchcover from "../../images/knitstitchcover.png";
 import LeftWorkComponent from "../../components/WorkComponents/LeftWorkComponent";
 import RightWorkComponent from "../../components/WorkComponents/RightWorkComponent";
 import styles from "./Work.module.css";
 import Navbar from "../../components/Navbar/Navbar";
+import { NavLink } from "react-router-dom";
 
 const Work = () => {
   return (
     <div>
+      <div className={styles.banner}>
+        <NavLink
+          to="/knit-stitch"
+          className={styles.knitStitchLink}
+        >
+          New Project Alert! View KNIT STITCH here &rarr;
+        </NavLink>
+      </div>
       <Navbar />
       <img src={bkgd} alt="background" className={styles.bkgd} />
 
@@ -25,6 +35,13 @@ const Work = () => {
         Recent Work
       </Typography>
 
+      {/* Knit Stitch */}
+      <RightWorkComponent
+        image={knitstitchcover}
+        name="Knit Stitch"
+        description="A tool to help you create knitting patterns from images."
+        link="/knit-stitch"
+      />
       {/* BSC */}
       <LeftWorkComponent
         image={bsc}
