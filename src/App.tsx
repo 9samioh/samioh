@@ -15,6 +15,7 @@ import Buildabear from "./pages/Work/Projects/Buildabear/Buildabear";
 import Findyourzen from "./pages/Work/Projects/Findyourzen/Findyourzen";
 import Nbjc from "./pages/Work/Projects/Nbjc/Nbjc";
 import Bloom from "./pages/Work/Projects/Bloom/Bloom";
+import KnitStitch from "./pages/KnitStitch/KnitStitch";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path="/findyourzen" element={<Findyourzen />} />
             <Route path="/nbjc" element={<Nbjc />} />
             <Route path="/bloom" element={<Bloom />} />
+            <Route path="/knit-stitch" element={<KnitStitch />} />
           </Routes>
         </Router>
       </div>

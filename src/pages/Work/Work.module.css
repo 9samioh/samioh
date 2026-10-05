@@ -5,6 +5,23 @@
 	font-weight: normal;
 }
 
+.banner {
+    background-color: #f5c0d0;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.knitStitchLink {
+    color: black;
+}
+
+.knitStitchLink:hover {
+    color: #cb416b;
+}
 .bkgd {
     /* position: absolute; */
     width: 100%;
@@ -83,4 +100,11 @@
     text-decoration: none;
     float: right
 
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 10px;
+        font-size: 12px;
+    }
 }
