@@ -90,3 +90,17 @@ margin-right: auto;
     
 }
 
+.pinkButton {
+    background-color: #cb416b;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 120px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.pinkButton:hover {
+    background-color: #aa3155;
+}

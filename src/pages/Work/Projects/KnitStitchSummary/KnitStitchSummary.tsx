@@ -1,14 +1,12 @@
 import { Typography, Stack } from "@mui/material";
 import BackHome from "../../../../components/BackHome/BackHome";
-import Banner from "../../../../components/Banner/Banner";
 import Navbar from "../../../../components/Navbar/Navbar";
 import ProjectCard from "../../../../components/ProjectCard/ProjectCard";
-import ofaq from "../../../../images/ofaq.png";
-import ohome from "../../../../images/ohome.png";
-import omegascreen from "../../../../images/omegascreen.png";
-import onews from "../../../../images/onews.png";
+import knitstitch from "../../../../images/knitstitch.png";
+import knitstitchcover from "../../../../images/knitstitchcover.png";
 
 import styles from "../Projects.module.css";
+import { NavLink } from "react-router-dom";
 const KnitStitchSummary = () => {
   return (
     <div>
@@ -21,49 +19,36 @@ const KnitStitchSummary = () => {
           Knit Stitch
         </Typography>
         <Typography className={styles.info}>
-          Company: Omega Packaging <br /> Position: Website Designer + Developer
+            A quick tool I made to help you create knitting patterns from images!
         </Typography>
-        <img src={omegascreen} alt="omega" className={styles.homeimg} />
+        <img src={knitstitchcover} alt="omega" className={styles.homeimg} />
       </div>
 
       {/* Body */}
       <div className={styles.body}>
-        <Banner
-          title="Product"
-          info="Omega Packaging is a plastic packaging company based in Orange County. Their old website was coded in bare HTML with little-to-no CSS :0"
-        />
 
         <div className={styles.bodyitem}>
-          <Typography variant="body2" sx={{ textAlign: "center" }}>
-            My instruction was to keep all of the website information the same,
-            just make it look slightly better (without looking flashy). The
-            purpose of the website is solely for companies looking for
-            information such as jar sizing and availability, rather than
-            individuals being sold on a product.
+          <Typography variant="body1" sx={{ textAlign: "center", padding: "5% 0 2%" }}>
+          When knitting, sometimes you want a custom pattern on your sweater, which is easiest to do with a colorwork chart.  
+          I wanted to create a tool where you could easily create these colorwork patterns by uploading images.
+          It gives you an initial output and you can edit stitches individually to finalize your pattern before downloading it.
+          <br/><br/>Here's an example of a recent pattern I made!
           </Typography>
         </div>
 
-        <Stack padding={"5% 0 5% 0"}>
-          <img src={ohome} alt="bsc" className={styles.smallimg} />
-          <img src={omegascreen} alt="bsc" className={styles.smallimg} />
-          <img src={ofaq} alt="bsc" className={styles.smallimg} />
-          <img src={onews} alt="bsc" className={styles.smallimg} />
+        <Stack>
+          <img src={knitstitch} alt="knitstitch" className={styles.smallimg} />
         </Stack>
 
         <div className={styles.bodyitem}>
-          <Typography variant="body2" sx={{ textAlign: "center" }}>
-            You can visit the website here!
+          <Typography variant="body1" sx={{ textAlign: "center" }}>
+            Try out the tool yourself!
           </Typography>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://www.omegapkg.com/"
-            className={styles.link}
-          >
-            <Typography variant="body1" sx={{ textAlign: "center" }}>
-              LET'S GO!
-            </Typography>
-          </a>
+            <NavLink
+            to="/knit-stitch" className={styles.pinkButton}
+            >
+            KNIT STITCH
+            </NavLink>
         </div>
 
         {/* Next Projects */}

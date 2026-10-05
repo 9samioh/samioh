@@ -56,6 +56,9 @@
   display: flex;
   align-items: center;
 }
+.contacttext {
+  font-size: 16px;
+}
 
 @media (max-width: 768px) {
   .body {
