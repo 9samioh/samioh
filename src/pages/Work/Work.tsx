@@ -40,7 +40,7 @@ const Work = () => {
         image={knitstitchcover}
         name="Knit Stitch"
         description="A tool to help you create knitting patterns from images."
-        link="/knit-stitch"
+        link="/knit-stitch-summary"
       />
       {/* BSC */}
       <LeftWorkComponent

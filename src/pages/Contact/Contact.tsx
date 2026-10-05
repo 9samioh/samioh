@@ -19,19 +19,19 @@ const Contact = () => {
         >
           <img src={contact} alt="contact" className={styles.contactimg} />
 
-          <Stack sx={{ width: "30%" }} className={styles.contacttext}>
+          <Stack sx={{ width: "40%", gap: "10px" }} className={styles.contacttext}>
             <Typography variant="h2" className={styles.smallpadding}>
               Contact Me!
             </Typography>
             <div className={styles.contactinfo}>
-              <Typography variant="body2">
+              <Typography variant="body1">
                 <span style={{ fontWeight: "bolder" }}>Email:</span>{" "}
                 sami_oh@berkeley.edu
               </Typography>
               <CopyToClipboardButton text="sami_oh@berkeley.edu" />
             </div>
             <div className={styles.contactinfo}>
-              <Typography variant="body2">
+              <Typography variant="body1">
                 <span style={{ fontWeight: "bolder" }}>Mobile:</span>{" "}
                 714-321-7505
               </Typography>
@@ -44,17 +44,17 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Typography variant="body2">LinkedIn</Typography>
+                <Typography variant="body1">LinkedIn</Typography>
               </a>
             </div>
             <div>
               <a
                 className={styles.link2}
-                href="https://drive.google.com/file/d/1k-4VtPUgv_UMOVxjwr58ovGqr5wedChr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_rV442GS3Tk0GmVNtyLHKCts4vHa7EwK/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Typography variant="body2">Resume</Typography>
+                <Typography variant="body1">Resume</Typography>
               </a>
             </div>
           </Stack>

@@ -1,7 +1,7 @@
 .ks {
   --paper: rgb(242, 236, 226);
   --ink: #1f2a37;
-  --grid: #f8e8ed;
+  --grid: grey;
   --accent: #cb416b;
   --soft: #f5ebee;
   min-height: 100vh;
